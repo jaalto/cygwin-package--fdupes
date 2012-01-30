@@ -1,0 +1,66 @@
+fdupes
+------------------------------------------
+
+Identify duplicate files within given directories
+
+Program uses md5sums and then a byte by byte comparison to find
+duplicate files within a set of directories. It has several useful
+options including recursion.
+
+Runtime requirements:
+  cygwin
+
+Build requirements:
+  cygwin
+
+Canonical homepage:
+  http://netdial.caribe.net/~adrian2/fdupes.html
+  http://packages.debian.org/fdupes
+
+Canonical download:
+  http://netdial.caribe.net/~adrian2/programs
+
+Version control repository:
+
+Mailing list:
+
+Forum / Wiki:
+
+IRC channel:
+
+Upstream contact:
+  Maintainer: Adrian Lopez <adrian2@caribe.net>
+  Bugs: Adrian Lopez <adrian2@caribe.net>
+
+License:
+  GPL
+
+Language:
+  C
+
+------------------------------------------
+
+Build instructions:
+  unpack fdupes-*-src.tar.bz2
+    if you use setup to install this source package, it will be
+    unpacked under /usr/src automatically
+  cd /usr/src
+  ./fdupes*.sh all
+
+------------------------------------------
+
+Files included in the binary distribution:
+  See content of *.tar.gz
+
+------------------------------------------
+
+Port Notes:
+
+----- version 1.50-PR2-1 -----
+- New upstream release 2008-03-06 Jari Aalto
+
+----- version 1.40-1 -----
+- Initial release 2008-03-01 Jari Aalto
+
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
+Copyright (C) 2008 Jari Aalto; Licensed under GPL v2 or later

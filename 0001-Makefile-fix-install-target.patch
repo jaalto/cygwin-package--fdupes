@@ -1,0 +1,32 @@
+From d48baa1a9f9766c93c2723f57be58313f716c1e9 Mon Sep 17 00:00:00 2001
+From: Jari Aalto <jari.aalto@cante.net>
+Date: Fri, 7 Mar 2008 13:15:36 +0200
+Subject: [PATCH] Makefile: fix install target
+
+Signed-off-by: Jari Aalto <jari.aalto@cante.net>
+---
+ Makefile |    5 +++--
+ 1 files changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/Makefile b/Makefile
+index 1d5e41a..52e469d 100644
+--- a/Makefile
++++ b/Makefile
+@@ -96,11 +96,12 @@ all: fdupes
+ fdupes: $(OBJECT_FILES)
+ 	$(CC) $(CFLAGS) -o fdupes $(OBJECT_FILES)
+ 
+-installdirs:
++installdirs-old:
+ 	test -d $(BIN_DIR) || -$(MKDIR) $(BIN_DIR)
+ 	test -d $(MAN_DIR) || -$(MKDIR) $(MAN_DIR)
+ 
+-install: fdupes installdirs
++install: fdupes
++	install -m 755 -d $(BIN_DIR) $(MAN_DIR)
+ 	$(INSTALL_PROGRAM)	fdupes   $(BIN_DIR)/$(PROGRAM_NAME)
+ 	$(INSTALL_DATA)		fdupes.1 $(MAN_DIR)/$(PROGRAM_NAME).$(MAN_EXT)
+ 
+-- 
+1.5.3.8
+

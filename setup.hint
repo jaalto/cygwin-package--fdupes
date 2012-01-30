@@ -1,0 +1,6 @@
+sdesc: "Identify duplicate files within given directories"
+ldesc: "Program uses md5sums and then a byte by byte comparison to find
+duplicate files within a set of directories. It has several useful
+options including recursion."
+category: Utils
+requires: cygwin
