@@ -56,6 +56,10 @@ Files included in the binary distribution:
 
 Port Notes:
 
+----- version 1.50-PR2-3 -----
+- Cygwin packaging 2013-10-11 Jari Aalto
+- Update manual page location (refresh patch)
+
 ----- version 1.50-PR2-2 -----
 - Cygwin packaging 2013-09-15 Jari Aalto
 - Add DESTDIR to Makefile patch
@@ -66,5 +70,5 @@ Port Notes:
 ----- version 1.40-1 -----
 - Initial release 2008-03-01 Jari Aalto
 
-Cygwin port maintained by: user <jari.aalto@cante.net>
+Cygwin port maintained by: Jari Aalto <jari.aalto@cante.net>
 Copyright (C) 2008-2013 Jari Aalto; Licensed under GPL v2 or later

@@ -1,5 +1,5 @@
 To: cygwin-announce@cygwin.com
-Subject: Updated: fdupes 1.50-PR2-2 -- Identify duplicate files within given directories
+Subject: Updated: fdupes 1.50-PR2-3 -- Identify duplicate files within given directories
 
 PACKAGE DESCRIPTION
 ===================
@@ -19,6 +19,7 @@ See /usr/share/doc/fdupes-*/CHANGES
 INSTALL OR UPGRADE NOTES
 ========================
 
+Cygwin package update (manual page)
 Standard install.
 
 CYGWIN INSTALLATION INFORMATION
